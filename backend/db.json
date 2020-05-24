@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Matheus de Oliveira Nascimento",
+      "email": "maoliveira@gmail.com",
+      "age": 23,
+      "telephone": "(11)94105-2558"
+    },
+    {
+      "id": 3,
+      "name": "Valdete Rufino dos Santos",
+      "email": "valdeterufino@gmail.com",
+      "age": 48,
+      "telephone": "(11)97293-7846"
+    },
+    {
+      "id": 4,
+      "name": "Edson Cassio de Oliveira Nascimento",
+      "email": "edsoncassio@gmail.com",
+      "age": 51,
+      "telephone": "(11)94465-1858"
+    },
+    {
+      "id": 5,
+      "name": "Michele de Oliveira Nascimento",
+      "email": "michelleoliveira@gmail.com",
+      "age": "2020-05-06",
+      "telephone": "(11)93346-7858"
+    }
+  ]
+}
