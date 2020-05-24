@@ -120,7 +120,7 @@ export default class UserCrud extends Component {
 
     remove(user) {
         axios.delete(`${baseUrl}/${user.id}`).then(resp => {
-            const list = this.getUpdatedList(resp.data)
+            const list = this.getUpdatedList(user,false)
             this.setState({ list })
         })
     }
@@ -154,7 +154,7 @@ export default class UserCrud extends Component {
                     <td>{user.telephone}</td>
                     <td>
                         <button className="btn btn-warning"
-                            onClick={() => this.load(user,false)}>
+                            onClick={() => this.load(user)}>
                             <i className="fa fa-pencil"></i>
 
                         </button>
